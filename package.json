@@ -1,0 +1,23 @@
+{
+  "name": "culturenews.github.com",
+  "version": "0.0.1",
+  "description": "Semantic layout using BEM",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksanrReva/culturenews.github.com.git"
+  },
+  "author": "Aleksandr Reva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleksanrReva/culturenews.github.com/issues"
+  },
+  "homepage": "https://github.com/AleksanrReva/culturenews.github.com#readme",
+  "devDependencies": {
+    "webpack": "^5.10.3",
+    "webpack-cli": "^4.2.0"
+  }
+}
