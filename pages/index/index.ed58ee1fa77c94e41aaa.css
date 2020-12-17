@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url(../.././vendor/fonts/roboto-regular-webfont.woff);
+  font-weight: normal;
+}
+h1{font-family:Roboto;color:#00bfff}body{background:no-repeat url(../.././images/underwater-hotel.jpg)}
