@@ -1,45 +1,47 @@
 {
-  "name": "culturenews.github.com",
+  "name": "testus.github.io",
   "version": "0.0.1",
-  "description": "Semantic layout using BEM",
+  "description": "Lorem Ipsum",
   "main": "index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production rimraf dist && webpack --mode production",
-    "start": "cross-env NODE_ENV=development webpack serve --mode development --watch --open true"
+    "start": "cross-env NODE_ENV=development webpack serve --mode development --open true --watch",
+    "deploy": "cross-env NODE_ENV=production gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AleksanrReva/culturenews.github.com.git"
+    "url": "git+https://github.com/AleksanrReva/testus.github.io.git"
   },
   "author": "Aleksandr Reva",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AleksanrReva/culturenews.github.com/issues"
+    "url": "https://github.com/AleksanrReva/testus.github.io/issues"
   },
-  "homepage": "https://github.com/AleksanrReva/culturenews.github.com#readme",
+  "homepage": "https://github.com/AleksanrReva/testus.github.io#readme",
   "devDependencies": {
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",
-    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-env": "^7.12.10",
     "autoprefixer": "^10.1.0",
     "babel-loader": "^8.2.2",
     "cross-env": "^7.0.3",
     "css-loader": "^5.0.1",
     "cssnano": "^4.1.10",
-    "file-loader": "^6.2.0",
+    "gh-pages": "^2.2.0",
     "html-webpack-plugin": "^4.5.0",
     "image-webpack-loader": "^7.0.1",
     "mini-css-extract-plugin": "^1.3.3",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
     "postcss-loader": "^4.1.0",
     "style-loader": "^2.0.0",
-    "webpack": "^5.10.3",
+    "webpack": "^5.10.1",
     "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0",
     "webpack-md5-hash": "0.0.6"
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
     "core-js": "^3.4.1",
-    "save-dev": "0.0.1-security",
-    "webpack-dev-server": "^3.11.0"
+    "file-loader": "^6.2.0"
   }
 }
