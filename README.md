@@ -1,2 +1,1 @@
-# culturenews.github.com
-Semantic layout using BEM
+https://aleksanrreva.github.io/culturenews.github.com/

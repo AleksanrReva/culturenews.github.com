@@ -1,0 +1,10 @@
+@import url("../../vendor/fonts/fonts.css");
+
+h1 {
+  font-family: 'Roboto';
+  color: deepskyblue;
+}
+
+body {
+  background: no-repeat url("../../images/underwater-hotel.jpg");
+}
