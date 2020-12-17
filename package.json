@@ -1,7 +1,7 @@
 {
-  "name": "testus.github.io",
+  "name": "culturenews.github.com",
   "version": "0.0.1",
-  "description": "Lorem Ipsum",
+  "description": "Semantic layout using BEM",
   "main": "index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production rimraf dist && webpack --mode production",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AleksanrReva/testus.github.io.git"
+    "url": "git+https://github.com/AleksanrReva/culturenews.github.com.git"
   },
   "author": "Aleksandr Reva",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AleksanrReva/testus.github.io/issues"
+    "url": "https://github.com/AleksanrReva/culturenews.github.com/issues"
   },
-  "homepage": "https://github.com/AleksanrReva/testus.github.io#readme",
+  "homepage": "https://github.com/AleksanrReva/culturenews.github.com#readme",
   "devDependencies": {
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",

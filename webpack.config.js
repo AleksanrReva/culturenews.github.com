@@ -5,14 +5,14 @@ const WebpackMd5Hash = require('webpack-md5-hash');
 const webpack = require('webpack'); // подключаем cross-env — environment variables (от англ. «переменные окружения»)
 // const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const isDev = process.env.NODE_ENV; // содаём переменную для development-сборки
-const ASSET_PATH = process.env.ASSET_PATH || '/';
+// const ASSET_PATH = process.env.ASSET_PATH || '/';
 
 module.exports = { // module.exports — это синтаксис экспорта в Node.js 
   entry: { index: './src/pages/index/index.js' }, // указали первое место куда заглянет webpack — файл index.js в папке src
   output: { // указали в какой файл будет собирться весь js и дали ему имя 
     path: path.resolve(__dirname, 'dist'),
     filename: 'pages/[name]/[name].[chunkhash].js', // после установки md5-hash, до того filename: 'main.js'
-    publicPath: ASSET_PATH // с этой штукой нет ошибки связанной с src="<%=require('../folder/file.ext')%>"
+    publicPath: '' // ASSET_PATH — добавляла лишний слэш // с этой штукой нет ошибки связанной с src="<%=require('../folder/file.ext')%>"
   },
 
   module: {
@@ -118,8 +118,8 @@ module.exports = { // module.exports — это синтаксис экспор�
     new webpack.DefinePlugin({ // подключаем cross-env
       'NODE_ENV': JSON.stringify(process.env.NODE_ENV)
     }),
-    new webpack.DefinePlugin({ // для безопасного использования переменных окружения в коде
-      'process.env.ASSET_PATH': JSON.stringify(ASSET_PATH),
-    })
+    // new webpack.DefinePlugin({ // для безопасного использования переменных окружения в коде
+    //   'process.env.ASSET_PATH': JSON.stringify(ASSET_PATH),
+    // })
   ]
 };
