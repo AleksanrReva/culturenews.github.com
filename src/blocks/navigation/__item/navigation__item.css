@@ -1,0 +1,16 @@
+.navigation__item {
+  font-family: 'Montserrat-normal';
+  font-size: 0.9rem;
+  letter-spacing: 0.095em;
+
+  color: #000000;
+
+  text-transform: uppercase;
+  text-decoration: none;
+
+  transition: color 0.3s;
+}
+
+.navigation__item:hover {
+  color: #FF7931;
+}

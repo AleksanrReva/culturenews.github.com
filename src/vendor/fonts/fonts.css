@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Roboto';
-  src: url(../../vendor/fonts/roboto-regular-webfont.woff);
-  font-weight: normal;
+  font-family: 'Montserrat-normal';
+  src: url(../../vendor/fonts/Montserrat/Montserrat-Regular.ttf);
+  font-weight: 400;
 }

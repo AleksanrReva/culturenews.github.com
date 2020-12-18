@@ -1,0 +1,6 @@
+.navigation__element {
+  display: inline;
+  margin-right: 1.39em;
+  /* разные значения, чтобы нивелировать кернинг */
+  margin-left: 1.56em;
+}

@@ -1,10 +1,5 @@
+@import url("../../vendor/css/normalize.css");
 @import url("../../vendor/fonts/fonts.css");
-
-h1 {
-  font-family: 'Roboto';
-  color: deepskyblue;
-}
-
-body {
-  background: no-repeat url("../../images/underwater-hotel.jpg");
-}
+@import url("../../blocks/hidden/hidden.css");
+@import url("../../blocks/header/header.css");
+@import url("../../blocks/navigation/navigation.css");
