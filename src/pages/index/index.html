@@ -12,82 +12,92 @@
   <header class="header">
     <h1 class="hidden">Новости культуры</h1>
     <a class="header__logo">
-      <img src="<%=require('../../images/icons/logo.svg')%>" alt="логотип Новостей культуры">
+      <img src="<%=require('../../images/icons/logo.svg')%>" alt="Логотип Новостей культуры" width="345" height="32">
     </a>
     <nav class="navigation">
       <ul class="navigation__list">
-        <li class="navigation__element" ><a class="navigation__item" href="">Новости</a></li>
-        <li class="navigation__element" ><a class="navigation__item" href="">Обзоры</a></li>
-        <li class="navigation__element" ><a class="navigation__item" href="">Музыка</a></li>
-        <li class="navigation__element" ><a class="navigation__item" href="">Архитектура</a></li>
-        <li class="navigation__element" ><a class="navigation__item" href="">Кино</a></li>
-        <li class="navigation__element" ><a class="navigation__item" href="">Театр</a></li>
-        <li class="navigation__element" ><a class="navigation__item" href="">Литература</a></li>
-        <li class="navigation__element" ><a class="navigation__item" href="">Религия</a></li>
-        <li class="navigation__element" ><a class="navigation__item" href="">Живопись</a></li>
+        <li class="navigation__element" ><a class="navigation__item link" href="">Новости</a></li>
+        <li class="navigation__element" ><a class="navigation__item link" href="">Обзоры</a></li>
+        <li class="navigation__element" ><a class="navigation__item link" href="">Музыка</a></li>
+        <li class="navigation__element" ><a class="navigation__item link" href="">Архитектура</a></li>
+        <li class="navigation__element" ><a class="navigation__item link" href="">Кино</a></li>
+        <li class="navigation__element" ><a class="navigation__item link" href="">Театр</a></li>
+        <li class="navigation__element" ><a class="navigation__item link" href="">Литература</a></li>
+        <li class="navigation__element" ><a class="navigation__item link" href="">Религия</a></li>
+        <li class="navigation__element" ><a class="navigation__item link" href="">Живопись</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
-    <section>
-      <img src="" alt="">
-      <a href="">
-        <h2></h2>
+  <main class="content">
+    <section class="promotion">
+      <img class="promotion__logo" src="<%=require('../../images/logo-hotel.png')%>" alt="Логотип Подводного отеля" width="55" height="55">
+      <a class="link" href="https://www.iloboyou.com/hydropolis-underwater-hotel-in-dubai/">
+        <h2 class="promotion__title header2 link">Подводный отель</h2>
       </a>
-      <p></p>
+      <p class="promotion__text text" >Как известно, Дубай – город контрастов. Самые революционные<br />
+        и фантастические мечты архитекторов способен воплотить в жизнь 
+        этот мегаполис, построенный на нефти и за счет нефти</p>
+      <img class="promotion__background" src="<%=require('../../images/underwater-hotel.jpg')%>" alt="Интерьер спальни в номере отеля">
     </section>
 
-    <section>
-      <h2></h2>
+    <section class="reviews">
+      <h2 class="reviews__title header2">Обзоры</h2>
       
       <article>
-        <img src="" alt="">
+        <img src="<%=require('../../images/monparnasse.jpg')%>" alt="">
         <a href="">
-          <h3></h3>
+          <h3>«Шальные годы» Монпарнаса</h3>
         </a>
-        <p></p>
+        <p>В Музее изобразительных искусств имени Пушкина с 29 сентября 
+          по 29 ноября проходит выставка «Шальные годы Монпарнаса»</p>
       </article>
 
       <article>
-        <img src="" alt="">
+        <img src="<%=require('../../images/clay-in-the-hands.jpg')%>" alt="">
         <a href="">
-          <h3></h3>
+          <h3>Анатомия за 30 секунд</h3>
         </a>
-        <p></p>
+        <p>Сейчас, когда мир открыт нараспашку для человека
+          и его познавательных изысканий, интерес
+          к научно-популярной литературе заметно вырос</p>
       </article>
 
       <article>
-        <img src="" alt="">
+        <img src="<%=require('../../images/spherical-eccentrics.jpg')%>" alt="">
         <a href="">
-          <h3></h3>
+          <h3>Сферические чудаки</h3>
         </a>
-        <p></p>
+        <p>Корреспондентам «Культурного обозревателя» посчастливилось побывать 
+          в театре «Сфера» на премьере спектакля «Чудаки и зануды»</p>
       </article>
     </section>
 
     <section>
-      <h2></h2>
+      <h2 class="header2">Абонименты в театр</h2>
       <ul>
         <li>
           <a href="">
-            <h3></h3>
+            <h3>Скидка 50% на весь сезон 2020</h3>
           </a>
-          <p></p>
+          <p>Покупая абонемент на сезон 2020 года 
+            вы сэкономите половину стоимости всех спектаклей</p>
         </li>
 
         <li>
           <a href="">
-            <h3></h3>
+            <h3>Места у сцены</h3>
           </a>
-          <p></p>
+          <p>Только для обладателей абонементов будет возможность 
+            сесть поближе к сцене</p>
         </li>
 
         <li>
           <a href="">
-            <h3></h3>
+            <h3>Автограф-сессия актёров</h3>
           </a>
-          <p></p>
+          <p>После спектаклей у вас будет возможность 
+            пообщаться с актёрами и взять у них автограф</p>
         </li>
       </ul>
       <a href=""></a>

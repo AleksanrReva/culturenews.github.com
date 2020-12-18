@@ -5,12 +5,7 @@
 
   color: #000000;
 
+  line-height: 2em;
   text-transform: uppercase;
   text-decoration: none;
-
-  transition: color 0.3s;
-}
-
-.navigation__item:hover {
-  color: #FF7931;
 }

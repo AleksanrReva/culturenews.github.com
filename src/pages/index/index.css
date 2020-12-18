@@ -1,5 +1,10 @@
 @import url("../../vendor/css/normalize.css");
 @import url("../../vendor/fonts/fonts.css");
 @import url("../../blocks/hidden/hidden.css");
+@import url("../../blocks/header2/header2.css");
+@import url("../../blocks/text/text.css");
+@import url("../../blocks/link/link.css");
 @import url("../../blocks/header/header.css");
 @import url("../../blocks/navigation/navigation.css");
+@import url("../../blocks/promotion/promotion.css");
+@import url("../../blocks/reviews/reviews.css");

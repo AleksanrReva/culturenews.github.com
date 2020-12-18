@@ -1,0 +1,16 @@
+.promotion__background {
+  position: absolute;
+  z-index: -100;
+
+  width: 100%;
+  max-width: 1440px;
+  max-height: 464px;
+
+  transition: filter 1s;
+}
+
+@media (max-width: 1400px) {
+  .promotion__background {
+    height: 100%;
+  }
+}
