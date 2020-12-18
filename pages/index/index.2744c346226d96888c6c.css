@@ -349,9 +349,33 @@ template {
 }
 
 @font-face {
+  font-family: 'Raleway-thin';
+  src: url(../../vendor/fonts/Raleway-ExtraLight.ttf);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Montserrat-thin';
+  src: url(../../vendor/fonts/Montserrat-Thin.ttf);
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Montserrat-extraLight';
+  src: url(../../vendor/fonts/Montserrat-ExtraLight.ttf);
+  font-weight: 200;
+}
+
+@font-face {
   font-family: 'Montserrat-normal';
   src: url(../../vendor/fonts/Montserrat-Regular.ttf);
   font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Montserrat-bold';
+  src: url(../../vendor/fonts/Montserrat-Bold.ttf);
+  font-weight: 700;
 }
 .hidden {
   display: none;
@@ -361,8 +385,27 @@ template {
   height: 1px;
   margin: -1px;
 }
+.header2 {
+  font-family: 'Montserrat-bold';
+  font-size: 1rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.text {
+  font-family: 'Montserrat-extraLight';
+  font-size: 0.8rem;
+  line-height: 1.8em;
+}
+.link {
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: #FF7931;
+}
 .header__logo {
-  margin-top: 7.8vh;
+  margin-top: 3.85%;
 }
 .header {
   display: flex;
@@ -373,7 +416,8 @@ template {
   padding: 0;
   list-style: none;
 
-  margin-top: 3.6%;
+  margin-top: 2.4em;
+  margin-bottom: 2.65em;
 }
 .navigation__element {
   display: inline;
@@ -388,14 +432,67 @@ template {
 
   color: #000000;
 
+  line-height: 2em;
   text-transform: uppercase;
   text-decoration: none;
-
-  transition: color 0.3s;
 }
 
-.navigation__item:hover {
-  color: #FF7931;
+.promotion__logo {
+  margin-top: 2.45%;
+}
+.promotion__title {
+  font-family: 'Raleway-thin', sans-serif;
+  font-size: 4.2rem;
+  
+  color: #FFFFFF;
+
+  line-height: 0.6em;
+  letter-spacing: 0.065em;
+}
+.promotion__text {
+  max-width: 470px;
+  margin-top: 7.5em;
+  margin-bottom: 3.6em;
+
+  text-align: center;
+  color: #FFFFFF;
+}
+.promotion__background {
+  position: absolute;
+  z-index: -100;
+
+  width: 100%;
+  max-width: 1440px;
+  max-height: 464px;
+
+  transition: filter 1s;
+}
+
+@media (max-width: 1400px) {
+  .promotion__background {
+    height: 100%;
+  }
+}
+.promotion {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* padding-top: 1.6%;
+  padding-bottom: 1.75%; */
+}
+
+
+
+.promotion:hover .promotion__background {
+  filter: brightness(150%);
+}
+.reviews__title {
+  margin-top: 2.85em;
+
+  text-align: center;
 }
 
 
