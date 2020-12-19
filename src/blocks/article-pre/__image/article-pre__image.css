@@ -1,0 +1,9 @@
+.article-pre__image {
+  width: 100%;
+  
+  transition: filter 0.3s;
+}
+
+.article-pre:hover .article-pre__image {
+  filter: brightness(0.3);
+}

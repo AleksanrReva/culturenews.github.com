@@ -27,3 +27,9 @@
   src: url(../../vendor/fonts/Montserrat/Montserrat-Bold.ttf);
   font-weight: 700;
 }
+
+@font-face {
+  font-family: 'PlayfairDisplay-black';
+  src: url(../../vendor/fonts/PlayfairDisplay/PlayfairDisplay-Black.ttf);
+  font-weight: 900;
+}

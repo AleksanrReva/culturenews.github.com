@@ -1,0 +1,7 @@
+@import url("./__image/article-pre__image.css");
+@import url("./__title/article-pre__title.css");
+@import url("./__paragraph/article-pre__paragraph.css");
+
+.article-pre {
+  overflow: hidden;
+}

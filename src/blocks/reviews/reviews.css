@@ -1,1 +1,8 @@
 @import url("./__title/reviews__title.css");
+@import url("./__article/rewiews__article.css");
+
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

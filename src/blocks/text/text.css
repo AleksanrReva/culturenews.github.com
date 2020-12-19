@@ -1,5 +1,7 @@
 .text {
-  font-family: 'Montserrat-extraLight';
+  font-family: 'Montserrat-normal', sans-serif;
   font-size: 0.8rem;
+  color: #000000;
+  
   line-height: 1.8em;
 }
