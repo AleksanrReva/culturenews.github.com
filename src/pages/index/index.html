@@ -15,7 +15,7 @@
       <img src="<%=require('../../images/icons/logo.svg')%>" alt="Логотип Новостей культуры" width="345" height="32">
     </a>
     <nav class="navigation">
-      <ul class="navigation__list">
+      <ul class="navigation__list list">
         <li class="navigation__element" ><a class="navigation__item link" href="">Новости</a></li>
         <li class="navigation__element" ><a class="navigation__item link" href="">Обзоры</a></li>
         <li class="navigation__element" ><a class="navigation__item link" href="">Музыка</a></li>
@@ -73,34 +73,34 @@
       </article>
     </section>
 
-    <section>
-      <h2 class="header2">Абонименты в театр</h2>
-      <ul>
+    <section class="subscription">
+      <h2 class="subscription__title header2">Абонементы в театр</h2>
+      <ul class="subscription__list list">
         <li>
-          <a href="">
-            <h3>Скидка 50% на весь сезон 2020</h3>
+          <a class="link" href="">
+            <h3 class="subscription__item-title header3 link">Скидка 50% на весь сезон 2020</h3>
           </a>
-          <p>Покупая абонемент на сезон 2020 года 
+          <p class="subscription__paragraph text">Покупая абонемент на сезон 2020 года 
             вы сэкономите половину стоимости всех спектаклей</p>
         </li>
 
         <li>
-          <a href="">
-            <h3>Места у сцены</h3>
+          <a class="link" href="">
+            <h3 class="subscription__item-title header3 link">Места у сцены</h3>
           </a>
-          <p>Только для обладателей абонементов будет возможность 
+          <p class="subscription__paragraph text">Только для обладателей абонементов будет возможность 
             сесть поближе к сцене</p>
         </li>
 
         <li>
-          <a href="">
-            <h3>Автограф-сессия актёров</h3>
+          <a class="link" href="">
+            <h3 class="subscription__item-title header3 link">Автограф-сессия актёров</h3>
           </a>
-          <p>После спектаклей у вас будет возможность 
+          <p class="subscription__paragraph text">После спектаклей у вас будет возможность<br /> 
             пообщаться с актёрами и взять у них автограф</p>
         </li>
       </ul>
-      <a href=""></a>
+      <a class="subscription__more link" href="">Смотреть<span class="subscription__arrow">&#129122;</span></a>
     </section>
   </main>
 

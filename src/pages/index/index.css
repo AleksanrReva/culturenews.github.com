@@ -1,6 +1,7 @@
 @import url("../../vendor/css/normalize.css");
 @import url("../../vendor/fonts/fonts.css");
 @import url("../../blocks/hidden/hidden.css");
+@import url("../../blocks/list/list.css");
 @import url("../../blocks/header2/header2.css");
 @import url("../../blocks/header3/header3.css");
 @import url("../../blocks/text/text.css");
@@ -10,3 +11,4 @@
 @import url("../../blocks/promotion/promotion.css");
 @import url("../../blocks/reviews/reviews.css");
 @import url("../../blocks/article-pre/article-pre.css");
+@import url("../../blocks/subscription/subscription.css");

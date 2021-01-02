@@ -1,5 +1,6 @@
 .article-pre__image {
   width: 100%;
+  max-height: 202px;
   
   transition: filter 0.3s;
 }

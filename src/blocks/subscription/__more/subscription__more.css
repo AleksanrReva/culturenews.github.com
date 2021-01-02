@@ -1,0 +1,20 @@
+.subscription__more {
+  display: flex;
+  align-items: center;
+
+  padding: 1.1em 2.7em;
+
+  color: #FFFFFF;
+  background-color: #FF7931;
+
+  font-family: 'Montserrat-normal';
+  font-size: 0.7rem;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+
+  transition: background-color 0.3s;
+}
+
+.subscription__more:hover {
+  background-color: #FFFFFF;
+}
